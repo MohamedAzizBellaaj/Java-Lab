@@ -1,0 +1,10 @@
+
+import java.awt.*;
+
+class CreateButton{
+	public static void main(String[] args){
+		Frame f = new Frame("My button");
+		Button b= new Button("I am button");
+		b.addNotify();
+	}
+}
